@@ -18,7 +18,7 @@ struct SquareView: View {
         } label: {
             game.gameBoard[index].image
                 .resizable()
-                .frame(width:100, height:100)
+                .frame(width:60, height:60)
         }
         .disabled(game.gameBoard[index].player != nil)
         .buttonStyle(.bordered)

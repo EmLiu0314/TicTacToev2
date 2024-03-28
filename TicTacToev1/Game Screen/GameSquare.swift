@@ -26,7 +26,7 @@ struct GameSquare{ //information we want on each tile
     
     static var reset:[GameSquare]{ //reset is a function in game square
         var squares = [GameSquare]() //creating an instance of the GameSquare class
-            for index in 1...9 {
+            for index in 1...16 {
                 squares.append(GameSquare(id: index))
             }
             return squares
